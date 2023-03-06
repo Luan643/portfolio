@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+.bodyMenu{
+    width: 10vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.opcaoMenu1{
+    display: none;
+}
+
+.menu{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.tagMenu{
+    margin-left: 20px ;
+}
