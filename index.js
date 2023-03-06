@@ -1,10 +1,9 @@
 
 let display = true
-let menu1
-
-function displayMenu(menu) {
-    menu1 = document.querySelector(menu)
-    
+let menu1 
+//div.opcaoMenu1
+function displayMenu(param) {
+    menu1 = document.querySelector(param)
     if(display == true){
         displayMenuBlock()
     } else if(display == false) {
