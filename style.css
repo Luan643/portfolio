@@ -15,6 +15,10 @@ body{
     display: none;
 }
 
+.opcaoMenu2{
+    display: none;
+}
+
 .menu{
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;

@@ -1,8 +1,9 @@
 
 let display = true
-let menu1 = document.querySelector("div.opcaoMenu1")
+let menu1
 
-function displayMenu() {
+function displayMenu(menu) {
+    menu1 = document.querySelector(menu)
     
     if(display == true){
         displayMenuBlock()
@@ -24,4 +25,5 @@ let bdisplayMenuNone = function b(){
     display = !display
     
 }
+
 console.log(menu1)
