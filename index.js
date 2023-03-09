@@ -1,5 +1,3 @@
-let display = true
-
 const menus = {
     menu1: false,
     menu2: false

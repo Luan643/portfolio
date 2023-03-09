@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    padding: 0px;
 }
 
 .cssHomePage{
@@ -8,7 +9,7 @@ body{
 }
 
 .bodyMenu{
-    width: 15vw;
+    width: 20vw;
     height: 100vh;
     background-color: aqua;
     display: flex;
@@ -17,13 +18,38 @@ body{
 }
 
 .menu{
-    font-size: 35px;
-    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.menu p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
+    margin: auto;
+
 }
 
 .submenu{
-    background-color: aliceblue;
+    background-color: rgb(125, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.styleSubmenu{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.styleSubmenu:hover{
+    background-color: rgb(190, 255, 255);
 }
 
 .hidden{
