@@ -2,6 +2,38 @@ body{
     margin: 0px;
 }
 
+.cssHomePage{
+    display: flex;
+    flex-direction: row;
+}
+
+.bodyMenu{
+    width: 15vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.submenu{
+    background-color: aliceblue;
+}
+
+.hidden{
+    display: none;
+}
+
+/* body{
+    margin: 0px;
+}
+
 .bodyMenu{
     width: 10vw;
     height: 100vh;
@@ -27,4 +59,4 @@ body{
 
 .tagMenu{
     margin-left: 20px ;
-}
+} */

@@ -1,0 +1,7 @@
+let a = () => {
+    let i = document.getElementById('homePage').innerHTML = `<div>
+    <h1>React</h1>
+    <h3>Introdução</h3>
+    <a>Se você está começando a aprender sobre desenvolvimento de software, provavelmente já ouviu falar sobre React.</p> Mas o que é esse framework e por que é tão popular entre pessoas desenvolvedoras?</a>
+</div>`
+}

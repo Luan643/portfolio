@@ -1,28 +1,41 @@
-
 let display = true
-let menu1 
-//div.opcaoMenu1
+
+const menus = {
+    menu1: false,
+    menu2: false
+}
+
+function displayMenu(index) {
+    menus[index] = !menus[index]
+    const isOpen = menus[index]
+    const menu = document.querySelector(`[menu-ref=${index}]`)
+    menu.setAttribute('class', isOpen? 'submenu': 'submenu hidden')
+}
+
+/* let display = true
+let menu 
+
 function displayMenu(param) {
-    menu1 = document.querySelector(param)
+    menu = document.querySelector(param)
     if(display == true){
         displayMenuBlock()
     } else if(display == false) {
-        bdisplayMenuNone()  
+        displayMenuNone()  
     }
+
     console.log(display)
 }
 
 let displayMenuBlock = function a(){
-    menu1.style.display = "block"     
-    console.log("1")
+    menu.style.display = "block"     
     display = !display
+
+    console.log("1")
 }
 
-let bdisplayMenuNone = function b(){
-    menu1.style.display = "none"
-    console.log("2")
+let displayMenuNone = function b(){
+    menu.style.display = "none"
     display = !display
     
-}
-
-console.log(menu1)
+    console.log("2")
+} */
