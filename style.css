@@ -3,13 +3,21 @@ body{
     padding: 0px;
 }
 
-.cssHomePage{
+.cssPage{
     display: flex;
     flex-direction: row;
 }
 
+.cssHomePage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .bodyMenu{
-    width: 20vw;
+    width: 12%;
     height: 100vh;
     background-color: aqua;
     display: flex;
@@ -50,6 +58,10 @@ body{
 
 .styleSubmenu:hover{
     background-color: rgb(190, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hidden{
