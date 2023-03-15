@@ -5,53 +5,67 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="cssPage">
-        
-        <div class="bodyMenu">
-            <div class="tagMenu">
-                <div class="menu" onclick="displayMenu('menu1')">
-                    <p>Java Script</p>
-                    <img src="/setaDown.png" style="width: 10px; height: 10px;">
-                </div>
-                <div class="submenu hidden" menu-ref="menu1" >
-                    <div class="styleSubmenu" onclick="a()">React</div>
-                    <div class="styleSubmenu">Angular</div>
-                </div>
-            </div>
+    <div class="barraMenu">
 
-            <div class="tagMenu">
-                <div class="menu" onclick="displayMenu('menu2')">
-                    <p>HTML</p>
-                    <img src="/setaDown.png" style="width: 10px; height: 10px;">
-                </div>
-                <div class="submenu hidden" menu-ref="menu2">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                </div>
-            </div>
-        </div>
+        <button>=</button>
 
-        <div id="homePage" class="cssHomePage">
-            <div>
-               
-            </div>
-        </div>
+        <img src="logo.png" style="width: 50px; height: 50px;">
 
         <div>
-            <div id="abc" style="display: none;">
-                <h1>React</h1>
-                <h3>Introdução</h3>
-                <p>Se você está começando a aprender sobre desenvolvimento de software, provavelmente já ouviu falar sobre React.</p>
-                     Mas o que é esse framework e por que é tão popular entre pessoas desenvolvedoras?</p>
-            </div>
+            
         </div>
 
     </div>
 
+    <div class="cssPage" >
+        
+        <div class="bodyMenu">
+
+            <div class="tagMenu">
+
+                <div class="menu" onclick="displayMenu('menu1')">
+                    <p>Java Script</p>
+                    <img src="/setaDown.png" style="width: 10px; height: 10px;">
+                </div>
+
+                <div class="submenu hidden" menu-ref="menu1" >
+                    <div class="styleSubmenu">
+                        <a  class="linkMenu" href="react.html">React</a> 
+                    </div>
+                    <div class="styleSubmenu">
+                        <a class="linkMenu" href="angular.html">Angular</a> 
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tagMenu">
+
+                <div class="menu" onclick="displayMenu('menu2')">
+                    <p>HTML</p>
+                    <img src="/setaDown.png" style="width: 10px; height: 10px;">
+                </div>
+
+                <div class="submenu hidden" menu-ref="menu2">
+
+                    <div class="styleSubmenu">
+                        <a class="linkMenu" href="html.html">Tags</a> 
+                    </div>
+                    <div class="styleSubmenu">
+                        <a class="linkMenu" href="html.html">String</a>
+                    </div>
+                    <div class="styleSubmenu">
+                        <a class="linkMenu" href="html.html">Number</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
     <script src="index.js"></script>
-    <script src="oi.js"></script>
 </body>
 </html>
 
