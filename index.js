@@ -1,13 +1,16 @@
 const menus = {
+    sideBarDisplay:  false,
     menu1: false,
     menu2: false
 }
 
-function displayMenu(index) {
+function displayMenu(index, nameClass, nameClass2) {
     menus[index] = !menus[index]
     const isOpen = menus[index]
     const menu = document.querySelector(`[menu-ref=${index}]`)
-    menu.setAttribute('class', isOpen? 'submenu': 'submenu hidden')
+    menu.setAttribute( 'class', isOpen? nameClass: nameClass2)
+
+    console.log(menu)
 }
 
 /* let display = true

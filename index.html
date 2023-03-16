@@ -6,24 +6,25 @@
 </head>
 <body>
     <div class="barraMenu">
+        <div class="logoBut">
+            <button onclick="displayMenu('sideBarDisplay', 'cssPage', 'cssPage hidden')">=</button>
+            <img src="logo.png" style="width: 50px; height: 50px;">
+        </div>
 
-        <button>=</button>
 
-        <img src="logo.png" style="width: 50px; height: 50px;">
-
-        <div>
-            
+        <div class="input">
+            <input type="text">
         </div>
 
     </div>
 
-    <div class="cssPage" >
+    <div class="cssPage hidden" menu-ref="sideBarDisplay" >
         
         <div class="bodyMenu">
 
             <div class="tagMenu">
 
-                <div class="menu" onclick="displayMenu('menu1')">
+                <div class="menu" onclick="displayMenu('menu1', 'submenu', 'submenu hidden')">
                     <p>Java Script</p>
                     <img src="/setaDown.png" style="width: 10px; height: 10px;">
                 </div>
@@ -41,7 +42,7 @@
 
             <div class="tagMenu">
 
-                <div class="menu" onclick="displayMenu('menu2')">
+                <div class="menu" onclick="displayMenu('menu2', 'submenu', 'submenu hidden')">
                     <p>HTML</p>
                     <img src="/setaDown.png" style="width: 10px; height: 10px;">
                 </div>
