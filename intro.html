@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="intro.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bodyPag">
+
+        <div class="introducao">
+    
+             <h1 class="titulo">Introdução ao JavaScript</h1>
+    
+            <span class="aviso">Esta página contém alguns exemplos do que o JavaScript pode fazer.</span>
+    
+            <p class="conteudoTexto">
+                JavaScript pode alterar o conteúdo HTML <br>
+                Um dos muitos métodos JavaScript HTML é getElementById().
+            </p>
+
+            <span>O exemplo abaixo "localiza" um elemento HTML (com id="demo") e altera o conteúdo do elemento (innerHTML) para "Hello JavaScript":</span>
+    
+        </div>
+    
+        <div class="introExemplo">
+            <p> document.getElementById("demo").innerHTML = "Hello JavaScript"; </p>
+        </div>
+
+        <div class="containerExemplo">
+            <div class="boxExemplo">
+                <div>
+                    <textarea id="textExemplo"></textarea>
+                    <button onclick="rodarCodigoTextArea()"> run</button>
+                </div>
+                
+                <div id="resultExemplo"></div>
+
+            </div>
+
+            <div id="myDivCodigo" style="display: none;">
+
+                <h1>mudando o texto</h1>
+                <p id="texto">Esse texto vai ser mudado</p>
+                <button onclick="mudandoTexto()">click</button>
+
+                <script>
+                    function mudandoTexto(){
+                    document.querySelector("#texto").innerHTML = "Esse texto foi mudado"}
+                </script>
+            </div>
+        </div>
+        
+   
+    </div>
+</body>
+<script src="intro.js"></script>
+</html>
